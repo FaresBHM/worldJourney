@@ -31,9 +31,9 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    credentials: true,
-    origin: "https://worldjouney.netlify.app",
+    origin: "https://worldjouney.netlify.app/",
     methods: ["POST", "GET", "DELETE", "PUT"],
+    credentials: true,
   })
 );
 
