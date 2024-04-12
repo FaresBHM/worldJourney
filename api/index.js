@@ -31,8 +31,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-     origin: "https://worldjourney.vercel.app",
     credentials: true,
+    origin: "https://worldjourney.vercel.app",
   })
 );
 
